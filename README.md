@@ -167,3 +167,4 @@ Mit einem TGT können Service Tickets vom TGS angefordert werden, die den Zugrif
 - [CAS sample webapp](https://github.com/cas-projects/cas-sample-java-webapp)
 - [Techopedia TGS](https://www.techopedia.com/definition/27186/ticket-granting-server-tgs)
 - [CAS Infographic source](https://medium.com/@adiletmaratov/central-authentication-service-cas-implementation-using-django-microservices-70c4c50d5b6f)
+- [.this](https://github.com/akramreiter-tgm/syt-gk931-casserver)
