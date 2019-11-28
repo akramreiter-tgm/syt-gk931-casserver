@@ -33,9 +33,9 @@
                     </systemProperties>
                     <webApp>
                         <contextPath>/sample</contextPath>
-                        <overrideDescriptor>${basedir}/etc/jetty/web.xml</overrideDescriptor>
+                    	<overrideDescriptor>${basedir}/etc/jetty/web.xml</overrideDescriptor>
                     </webApp>
-                    <jvmArgs>-Xdebug -Xrunjdwp:transport=dt_socket,address=5002,server=y,suspend=n</jvmArgs>
+                    <jvmArgs>-Djavax.net.ssl.trustStore=/etc/cas/jetty/thetruststore -Djavax.net.ssl.trustStorePassword=changeit -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true  -Djavax.net.debug=ssl:handshake -Xdebug -Xrunjdwp:transport=dt_socket,address=5002,server=y,suspend=n</jvmArgs>
                 </configuration>
             </plugin>
         </plugins>

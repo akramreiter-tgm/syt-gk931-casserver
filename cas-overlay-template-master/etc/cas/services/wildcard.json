@@ -1,0 +1,7 @@
+{
+  "@class" :            "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" :         "^(https|http)://.*",
+  "name" :              "HTTPS and HTTP wildcard",
+  "id" :                1503925297,
+  "evaluationOrder" :   99999
+}
