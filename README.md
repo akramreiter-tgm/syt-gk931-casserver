@@ -103,7 +103,7 @@ Running the webapp is now possible via
 mvn clean package jetty:run-forked
 ````
 
-While logging in directly on the CAS server works fine, trying to do so gave me the following error: 
+While logging in directly on the CAS server works fine, trying to do so via the webapp gave me the following error: 
 
 Server ![](images/servererr.png)
 
@@ -168,3 +168,4 @@ Mit einem TGT können Service Tickets vom TGS angefordert werden, die den Zugrif
 - [Techopedia TGS](https://www.techopedia.com/definition/27186/ticket-granting-server-tgs)
 - [CAS Infographic source](https://medium.com/@adiletmaratov/central-authentication-service-cas-implementation-using-django-microservices-70c4c50d5b6f)
 - [.this](https://github.com/akramreiter-tgm/syt-gk931-casserver)
+
